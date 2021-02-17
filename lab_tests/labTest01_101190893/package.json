@@ -1,0 +1,28 @@
+{
+  "name": "labtest01_101190893",
+  "version": "1.0.0",
+  "description": "Lab test 01: Chat application for COMP3133",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "socket.io",
+    "express",
+    "mongodb",
+    "chat app",
+    "lab test"
+  ],
+  "author": "Sahil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.15",
+    "socket.io": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

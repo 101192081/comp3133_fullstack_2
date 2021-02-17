@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+  width: 800px;
+  height: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: -2px -2px 15px #d3d3f3, 2px 2px 15px #d3d3f3;
+}
+
+header {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(45, 86, 119);
+  color: white;
+}
+
+header > * {
+  margin: 0 15px;
+}
+
+.link-btn {
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.link-btn:hover {
+  background-color: white;
+  color: rgb(45, 86, 119);
+}
+
+main {
+  height: 82%;
+  display: flex;
+  background-color: #f2f2f2;
+}
+
+.chat-sidebar {
+  width: 25%;
+  padding: 20px 0 5px 15px;
+  color: white;
+  background-color: rgba(45, 86, 119, 0.85);
+  overflow-x: auto;
+}
+
+#room-name {
+  text-transform: capitalize;
+}
+
+.chat-messages {
+  width: 73%;
+  margin: 0 auto;
+  border-left: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+  background-color: white;
+  overflow-x: auto;
+}
+
+.message {
+  background-color: #f4f4f4;
+  width: 90%;
+  margin: 10px 0 10px 15px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.meta,
+.text {
+  margin-bottom: 3px;
+  font-size: 14px;
+  letter-spacing: 0.85px;
+  line-height: 1.5;
+}
+
+.meta {
+  font-size: 10px;
+  color: #5e5e5e;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+.chat-sidebar > p {
+  margin-bottom: 10px;
+}
+
+ul > li {
+  list-style-type: none;
+  margin-bottom: 3px;
+  text-transform: capitalize;
+}
+
+.chat-form-container {
+  background-color: rgb(45, 86, 119);
+  height: 20%;
+  padding: 10px 0;
+}
+
+form {
+  width: 95%;
+  margin: 5px auto;
+  display: flex;
+}
+
+input {
+  width: 90%;
+  height: 30px;
+  padding: 5px;
+  border: 2px solid white;
+  outline-width: 0;
+}
+
+.btn {
+  flex-grow: 1;
+  background-color: rgb(45, 86, 119);
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+}
