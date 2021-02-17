@@ -1,0 +1,1 @@
+module.exports = 'mongodb+srv://test:sahil678@cluster0.m8vkf.mongodb.net/gbc_full_stack?retryWrites=true&w=majority';
